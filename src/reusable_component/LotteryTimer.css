@@ -1,0 +1,16 @@
+.custom-cut {
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 25%);
+  }
+
+  .custom-upper-lower-cut {
+    clip-path: polygon(
+      0% 0%,    
+      /* top-left cut */
+      100% 0%,
+      100% 75%,  /* bottom-right cut starts */
+      75% 100%,
+      0% 100%,
+      0% 25%
+    );
+  }
+  

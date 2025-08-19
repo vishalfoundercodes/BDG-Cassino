@@ -1,0 +1,53 @@
+
+/* aviator notification modal css */
+.custom-toast {
+    /* width: 300px; */
+    height: 60px;
+    text-align: center;
+    white-space: nowrap;         /* Prevent content wrapping */
+    padding-bottom: 10px !important;
+    font-size: 18px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    /* background: #333; */
+    color: #fff;
+    border: 1px solid #4CAF50 !important;
+    border-radius: 30px !important;
+    color: #fff !important;
+    /* gap: 10px; */
+  }
+  
+  .custom-toast-success {
+    background: #29AA09 !important;
+  }
+  
+  .custom-toast-warn {
+    background: #DD9138 !important;
+  }
+  
+  .custom-toast-error {
+    background: #ff4d4d !important;
+  }
+  
+  /* Change tick color */
+  .custom-toast .Toastify__toast-icon svg {
+    fill: #ffffff !important;
+    /* Tick icon color: white */
+  }
+  
+  /* Change cross button color */
+  .custom-toast .Toastify__close-button {
+    color: #fff !important;
+    /* Cross color: red */
+    opacity: 1 !important;
+    /* Ensure it's fully visible */
+    transition: color 0.3s ease;
+    /* Smooth transition effect */
+  }
+  
+  /* On hover, turn the cross white */
+  .custom-toast .Toastify__close-button:hover {
+    color: #ffffff !important;
+    /* Cross color: white on hover */
+  }
